@@ -1,0 +1,27 @@
+Options:
+	Version: 1.0
+	
+#Created By: ImDoggo
+
+#»------------------------------------------------«
+#           S T O P  L O O K I N G  I N
+#              I N  T H E  F I L E  !
+#»------------------------------------------------«
+
+
+command /gmc:
+	permission: gamemode.creative
+	trigger:
+		make the command sender execute "/gamemode 1"
+command /gms:
+	permission: gamemode.survival
+	trigger:
+		make the command sender execute "/gamemode 0"
+command /gma:
+	permission: gamemode.adventure
+	trigger:
+		make the command sender execute "/gamemode 2"
+command /spec:
+	permission: gamemode.spectate
+	trigger:
+		make the command sender execute "/gamemode 3"
