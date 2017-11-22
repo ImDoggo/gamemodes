@@ -3,11 +3,6 @@ Options:
 	
 #Created By: ImDoggo
 
-#»------------------------------------------------«
-#           S T O P  L O O K I N G  I N
-#              I N  T H E  F I L E  !
-#»------------------------------------------------«
-
 
 command /gmc:
 	permission: gamemode.creative
