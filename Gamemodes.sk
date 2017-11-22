@@ -1,22 +1,38 @@
 Options:
-	Version: 1.0
+	Version: 1.2
 	
 #Created By: ImDoggo
 
 
 command /gmc:
+	description: Changes your Gamemode to Creative
 	permission: gamemode.creative
+	permission message: &cYou don't have the required Permissions to execute this Command!
 	trigger:
-		make the command sender execute "/gamemode 1"
+		set player's gamemode to creative
+		send "&7Your Gamemode has been updated to: &cCreative&7!"
+		stop
 command /gms:
+	description: Changes your Gamemode to Survival
 	permission: gamemode.survival
+	permission message: &cYou don't have the required Permissions to execute this Command!
 	trigger:
-		make the command sender execute "/gamemode 0"
+		set player's gamemode to survival
+		send "&7Your Gamemode has been updated to: &cSurvival&7!"
+		stop
 command /gma:
+	description: Changes your Gamemode to Adventure
 	permission: gamemode.adventure
+	permission message: &cYou don't have the required Permissions to execute this Command!
 	trigger:
-		make the command sender execute "/gamemode 2"
+		set player's gamemode to adventure
+		send "&7Your Gamemode has been updated to: &cAdventure&7!"
+		stop
 command /spec:
+	description: Changes your Gamemode to Spectator
 	permission: gamemode.spectate
+	permission message: &cYou don't have the required Permissions to execute this Command!
 	trigger:
-		make the command sender execute "/gamemode 3"
+		set player's gamemode to spectator
+		send "&7Your Gamemode has been updated to: &cSpectator&7!"
+		stop
